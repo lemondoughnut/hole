@@ -19,6 +19,8 @@
 
 <div id="titlebar">
 
+    <div id="back">←</div>
+
 <div id="lights">
 <span class="light"></span>
 <span class="light"></span>
@@ -42,12 +44,12 @@ LEMON DONUT HOLE
 
 
 <div class="tab">
-<a href="NOTICE.html">NOTICE</a>
+<a href="notice.html">NOTICE</a>
 </div>
 
 
 <div class="tab">
-<a href="MESSAGE.html">MESSAGE</a>
+<a href="message.html">MESSAGE</a>
 </div>
 
 
@@ -89,18 +91,18 @@ LEMON DONUT HOLE
 </a>
 
 
-<div class="construction"> 공사중... </div>
+<div class="construction"> 공사 중... </div>
 
 
 </div>
 
-
 </div>
 
-
-
-</div>
-
+<script>
+    document.getElementById("back").onclick = function () {
+        location.href = "index.html";
+    };
+</script>
 
 </body>
 </html>
