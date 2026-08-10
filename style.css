@@ -457,6 +457,21 @@ p{
     text-align:left;
 }
 
+.message-page .narration{
+    display:block;
+    width:100%;
+    margin:28px 0;
+
+    text-align:center !important;
+
+    font-family:"Pretendard", sans-serif;
+    font-size:15px;
+    font-weight:200;
+    font-style:italic;
+
+    color:#888;
+}
+
 .message{
     width:100%;
 
