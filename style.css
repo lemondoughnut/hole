@@ -587,13 +587,18 @@ p{
 
 
 .narration {
+    width: 100%;
+
+    margin: 18px 0;
+
     text-align: center;
-    margin: 12px 0;
-    
+
     font-family: "Pretendard", sans-serif;
     font-size: 15px;
-    color: #888;
+    font-weight: 200;
     font-style: italic;
+
+    color: #888;
 }
 
 /* ==================================================
