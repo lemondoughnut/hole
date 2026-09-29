@@ -359,77 +359,36 @@ p{
 
 .notice-page{
     align-items:center;
-    text-align:center;
 }
 
 .notice-page h2{
     width:100%;
-
     text-align:center;
-
-    margin:0 0 18px;
+    margin:0 0 35px;
 }
 
-#noticeImage{
-    width:350px;
-
-    margin-bottom:30px;
-}
-
-.noticeBox{
-    width:600px;
-
+.notice-page .noticeColumn{
+    width:100%;
+    max-width:650px;
     margin:0 auto;
 
-    display:flex;
-    flex-direction:row;
+    text-align:left;
+    line-height:1.9;
 
-    border-top:1px solid var(--border);
-    border-bottom:1px solid var(--border);
+    color:var(--subtext);
+}
+
+.notice-page h3{
+    margin-bottom:15px;
+    padding-bottom:10px;
+
+    text-align:left;
 
     color:var(--text);
-
-    font-size:13px;
-    line-height:2;
-
-    text-align:center;
-}
-
-.noticeColumn{
-    padding:24px 28px;
-
-    text-align:center;
-}
-
-.noticeColumn:first-child{
-    width:58%;
-}
-
-.noticeColumn:last-child{
-    width:42%;
-}
-
-.noticeColumn + .noticeColumn{
-    border-left:1px solid var(--border);
-}
-
-.noticeColumn h3{
-    margin:0 0 14px;
-
-    padding-bottom:8px;
-
-    border-bottom:1px solid var(--border);
-
-    color:var(--text);
-
-    font-family:"DOSGothic", sans-serif;
-
-    font-size:13px;
+    font-size:16px;
     font-weight:400;
 
-    letter-spacing:2px;
-
-    text-align:center;
+    border-bottom:1px solid var(--border);
 }
 
 
